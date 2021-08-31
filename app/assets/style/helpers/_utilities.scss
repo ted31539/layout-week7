@@ -1,0 +1,44 @@
+//font-size
+@for $i from 1 through 12 {
+    .font-size-#{$i} {
+        font-size: ($i *0.25rem) !important;
+    }
+}
+.font-size-sm {
+    font-size: 14px;
+}
+//height
+@for $i from 1 through 24 {
+    .height-#{$i} {
+        height: $i * 2.5rem !important;
+    }
+}
+//圖片取代文字
+.img-replace-text {
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+    
+}
+.banner {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+//position
+.position-middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.translate-x-0 {
+    transform: translate(0, -50%);
+}
+//logo
+.logo {
+    width: 112px;
+    height: 48px;
+    background-image: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/8a71940d3cd9c932e7126e75e093f68f3a861b79/week7/logo-fixie.svg');
+}

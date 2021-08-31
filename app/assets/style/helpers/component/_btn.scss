@@ -1,0 +1,19 @@
+.btn, .btn-sm, .btn-lg {
+    border-radius: 0;
+    font-weight: bold;    
+}
+.btn-main {
+    color: $primary;
+    background: $light;
+    border: 1px $primary solid;
+}
+.btn-direction {
+    padding: 36px;
+    background: $white;
+    border: 1px $primary solid;
+}
+.btn-direction-sm {
+    padding: 20px 20px 19px 20px;
+    background: $primary;
+    border: 1px $primary solid;
+}
